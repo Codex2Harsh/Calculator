@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 237, 214);
+}
+.calculator{
+    border: 2.5px solid rgb(28, 27, 27);
+    border-radius: 11px;
+    width: 350px;
+    margin: 15vh 30vw;
+    background-color: rgb(76, 95, 214);
+}
