@@ -1,6 +1,8 @@
 import style from "./Display.module.css"
 
-let Display = ()=> {
-  return  <input class={style.display} type="text" />;
+let Display = ({display})=> {
+  return ( 
+  <input class={style.display} type="text" value={display} readOnly/>
+  )
 }
 export default Display;
